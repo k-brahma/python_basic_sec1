@@ -8,7 +8,7 @@ format関数
 
 city = "横浜市"
 ward = '中区元浜町'
-f_str = f'神奈川県 {0} {1}３丁目２１−２'.format(city, ward)
+f_str = '神奈川県 {0} {1}３丁目２１−２'.format(city, ward)
 print(f_str)
 
 this_year = 2020
