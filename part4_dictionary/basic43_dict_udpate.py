@@ -2,8 +2,8 @@
 辞書の基本
 
 辞書にあとから key と value の組み合わせを追加するには？
-    my_dict[key] = value #まずはこれを覚える
-    my_dict.update(another_dict) #辞書の結合。慣れると便利！
+    my_dict[key] = value         # 要素の追加。まずはこれを覚える
+    my_dict.update(another_dict) # 辞書の結合。慣れると便利！
 """
 
 fish_dict = {
@@ -26,3 +26,5 @@ fish_dict.update(another_fish_dict)
 print(fish_dict['karei'])
 print(fish_dict['katsuo'])
 print(fish_dict['iwashi'])
+
+print('終了しました')

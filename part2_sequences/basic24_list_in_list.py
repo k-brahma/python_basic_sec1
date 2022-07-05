@@ -2,9 +2,9 @@
 リスト内の要素は何でも良いです。
 もちろん、リスト内にリストを含むこともできます。
 
-以下のサンプルコードでは、 *1 のタイミングで、変数 all_quaters の中身はこうなっています。
+以下のサンプルコードでは、 *1 のタイミングで、変数 all_quoters の中身はこうなっています。
 
-all_quaters = [
+all_quoters = [
     ["jan", "feb", "mar", ],
     ["apr", "may", "jun", ],
     ["jul", "aug", "sep", ],
@@ -22,12 +22,14 @@ q2 = ["apr", "may", "jun", ]
 q3 = ["jul", "aug", "sep", ]
 q4 = ["oct", "nov", "dec", ]
 
-all_quaters = [q1, q2, q3, q4, ]  # *1
-print(len(all_quaters))  # 要素数は4
+all_quoters = [q1, q2, q3, q4, ]  # *1
+print(len(all_quoters))  # 要素数は4
 
-for quater in all_quaters:
+for quater in all_quoters:
     print(len(quater))  # どれも要素数は3
 
-for quater in all_quaters:
+for quater in all_quoters:
     for month in quater:
         print(month)
+
+print('終了しました')

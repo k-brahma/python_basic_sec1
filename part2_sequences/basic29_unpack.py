@@ -33,3 +33,5 @@ a, b, c = 3, 5, 7
 print(a)
 print(b)
 print(c)
+
+print('終了しました')

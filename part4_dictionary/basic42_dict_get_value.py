@@ -3,8 +3,8 @@
 
 辞書の作り方
     以下の2つのパターンがあります。
-        my_dict = {} #まずはこれを覚えましょう。
-        my_dict = () #いずれ「すごく便利！」と思える日が来ます (^^*
+        my_dict = {}     #まずはこれを覚えましょう。
+        my_dict = dict() #いずれ「すごく便利！」と思える日が来ます (^^*
 
 辞書から key をキーに value を取り出すには、以下のように書きます
     my_value = my_dict[key]                    #key が絶対にある場合
@@ -49,3 +49,5 @@ print(my_fish3)
 # 辞書が特定の key を持つ要素を有しているかどうか調べます
 print('karei' in fish_dict)
 print('same' in fish_dict)
+
+print('終了しました')

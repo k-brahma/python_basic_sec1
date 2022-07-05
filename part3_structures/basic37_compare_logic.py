@@ -20,3 +20,5 @@ modori_katuo_months = ('9月', '10月', '11月',)
 
 if '10月' in hatsu_katuo_months or '10月' in modori_katuo_months:
     print('10月のカツオが水揚げされる月です')
+
+print('終了しました')

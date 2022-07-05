@@ -1,5 +1,5 @@
 """
-True/False のいずれの値を取る bool型 は、比較演算で使います。
+True/False のいずれかの値を取る bool型 は、比較演算で使います。
 
 ここでは、 bool 関数を紹介します。
 bool 関数は、引数を渡すと、 True/False のいずれかの値を返します。
@@ -28,3 +28,5 @@ print(result)  # False
 
 result = bool(None)
 print(result)  # False
+
+print('終了しました')

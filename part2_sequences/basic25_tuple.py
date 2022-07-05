@@ -1,7 +1,7 @@
 """
 タプルとは？
     0個、1個、または複数の要素を含む集合体
-    要素の順番情報持つ(後述の set 等は持たない)
+    要素の順番情報を持つ(後述の set 等は持たない)
     要素は重複してもOK(後述の set ではNG)
     listのappendに相当するようなメソッドがなく、一度定義すると、要素の追加や削除ができない
 
@@ -25,15 +25,15 @@
 
 # 型を見てみよう
 blank_list = []
-print(type(blank_list))
+print(type(blank_list))  # <class 'list'>
 
 blank_tuple = ()
-print(type(blank_tuple))
+print(type(blank_tuple))  # <class 'tuple'>
 
 one_elem_tuple = 3,  # tuple です。末尾のカンマに注目！
 print(type(one_elem_tuple))
 
-# 要素の追加/削除ができないこと以外は
+# 要素の追加/削除ができないこと以外はリストとほぼ同じと思っておいていただいてOKです
 
 # リスト
 month_list = ["jan", "feb", "mar"]
@@ -45,3 +45,5 @@ print(len(month_list))  # 4
 month_tuple = "jul", "aut", "sep",
 print(type(month_tuple))
 # month_tuple.append("oct", )  # これはNG。 tupleへの要素追加はできない
+
+print('終了しました')

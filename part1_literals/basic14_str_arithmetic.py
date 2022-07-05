@@ -18,3 +18,5 @@ print(ward)
 print(city + ward)
 print(city + str(3))
 print(city * 3)
+
+print('終了しました')

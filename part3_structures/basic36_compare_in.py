@@ -41,3 +41,5 @@ if '夏' in my_str:
     print('夏 は 文字列 の中にありました')
 if '大理石' in my_str:
     print('大理石 は 文字列 の中にありました')
+
+print('終了しました')

@@ -3,6 +3,9 @@ Pythonプログラミングでは、データの「型」に敏感でありた�
     実際、デバッグ時に型を調べることは頻繁にある
 
 以下で、データの「型」にかかる調査をしてみる
+
+type関数       : 引数として指定されたオブジェクトの型を取得する
+isinstance関数 : 第一引数にオブジェクト、第二引数に型を指定する。戻り値は bool型(True/False)
 """
 
 # 文字列
@@ -27,5 +30,7 @@ my_none_value = None
 
 print(type(my_none_value))  # <class 'NoneType'>
 
-# None型であることの確認には、 Is 演算子(後述)を使うのが一般的
+# None型であることの確認には、 is 演算子(後述)を使うのが一般的
 print(my_none_value is None)  # True
+
+print('終了しました')

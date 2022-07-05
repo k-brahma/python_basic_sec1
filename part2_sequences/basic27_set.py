@@ -7,3 +7,5 @@ frozen setとは？
 """
 my_frozen_set = frozenset([1, 2, 3])
 print(type(my_frozen_set))
+
+print('終了しました')

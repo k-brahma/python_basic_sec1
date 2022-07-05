@@ -43,3 +43,5 @@ for item in fish_dict.items():
 for key, value in fish_dict.items():
     print(f'key: {key}')
     print(f'value: {value}')
+
+print('終了しました')
