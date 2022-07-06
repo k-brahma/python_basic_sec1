@@ -1,13 +1,14 @@
 """
-スライス
+リストのスライス
 
 リストの要素の取得: (先頭は「0番目」として数える)
     list[index] #index番目
-    list[-index] #後ろから、index番目の一個手前まで(クセあり、注意！)
-    list[:index] #先頭から、index番目まで
+    list[-index] #後ろから、index番目
+    list[:index] #先頭から、index番目の一個手前まで(クセあり、注意！)
+    list[index:] #index番目以降
 
 スライス可能なもの:
-    スライスは、 list, tuple, set で可能。
+    スライスは、 list, tuple で可能。(* set, frozenset では不可能です。順序の概念がないからです)
     それだけでなく、 文字列でも可能。(後述)
     一般的に、イテラブル(for 文で処理できるもの)であれば可能
 """
@@ -18,8 +19,8 @@ all_months = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9
 third_month = all_months[2]
 print(third_month)
 
-latter_secnod_month = all_months[-2]  # -1 は 12月、 - 2 は 11月
-print(latter_secnod_month)
+latter_second_month = all_months[-2]  # -1 は 12月、 - 2 は 11月
+print(latter_second_month)
 
 first_three_months = all_months[:3]  # 0, 1, 2番目まで(3番目は含まない)
 print(first_three_months)

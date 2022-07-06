@@ -12,55 +12,32 @@
         my_list = [要素1, 要素2, 要素3,
                         要素4, 要素5, ... ] #途中改行しながら書いても良い
 
-    要素は同じ型でなくて良い
+    各要素は同じ型でなくても構いません。
 
-    要素数を調べるには、 len 関数
+    要素数を調べるには、 len 関数を使います。
 
 for 文の基本構成
-    以下の書き方で、リスト等の「イテラブル(後述)」なオブジェクトを順番に処理できる
+    以下の書き方で、リスト等の「イテラブル(後述)」なオブジェクトを順番に処理できます。
         for [変数] in [リストなどの、順番に値を取り出せるもの]:
             処理1
             処理2
             処理3
             ...
 
-    pythonでは、for文の終わりは、「next」という言葉ではなく、「インデント」の終わりで表現します
+    pythonでは、for文の終わりは、「next」という言葉ではなく、「インデント」の終わりで表現します。
 
 """
 
 # 最後の要素のあとに注目。最後の要素のあと、カンマ「,」はあってもなくてもOK
 pre_half_months = ["1月", "2月", "3月", "4月", "5月", "6月"]
-post_half_months = ["7月", "8月", "9月", "10月", "11月", "12月", ]
-
-# 要素数を調べるには len() 関数
-print(len(pre_half_months))  # 6
-print(len(post_half_months))  # 6
+print(pre_half_months)  # そのまま出力してみます
+print(len(pre_half_months))  # 要素数を調べてみます
 
 for month in pre_half_months:
     print(month)
 
-for month in post_half_months:
-    print(f'{month}は下半期の月のうちの1つです')
-
-q1 = ["jan", "feb", "mar", ]
-q2 = [
-    "apr",
-    "may",
-    "jun",
-]
-q3 = [
-    "jul",  # 要素のあときち、こんな感じにコメントを入れることもできる(便利！)
-    "aug",  # 8月
-    "sep",  # 9月
-]
-q4 = [  # こんな書き方もOK
-    "oct", "nov",  # 10月と11月
-    "dec"
-]
-
-all_quaters = [q1, q2, q3, q4]
-for quater in all_quaters:
-    for month in quater:
-        print(month)
+for month in pre_half_months:
+    print(month)
+    print(f'{month}は上半期xの月のうちの1つです')
 
 print('終了しました')
