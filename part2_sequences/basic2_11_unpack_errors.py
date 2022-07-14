@@ -24,6 +24,6 @@
 
 # TypeError: cannot unpack non-iterable int object
 # 変数 x に 5 という値をを入れたつもりが...
-# x, = 5
+x, = 5
 
 print('終了しました')
